@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+  padding: 3rem;
+  background-color: rgb(107, 107, 203); 
+  
+  .message{
+    h1{
+      color: rgb(255, 255, 255);
+    }
+    p{
+      color: rgb(237, 237, 237);
+      padding: 1rem;
+    }
+  }
+
+  .avatar {
+    width: 4.8rem;
+    height: 4.8rem;
+    position: relative;
+    cursor: pointer;
+
+    img {
+      border-radius: 1rem;
+    }
+  }
+}
